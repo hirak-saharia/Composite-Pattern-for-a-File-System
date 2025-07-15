@@ -8,10 +8,17 @@ h1 {
   margin-bottom: 10px;
 }
 
+.fileSystem-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 #searchInput {
   padding: 8px;
-  width: 300px;
-  margin-bottom: 20px;
+  width: 345px;
+  margin-bottom: 9px;
 }
 
 .folder, .file {
@@ -33,4 +40,56 @@ h1 {
 
 .name {
   font-weight: bold;
+}
+
+* {
+    margin: 19px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    font-size: 42px;
+    background: linear-gradient(271deg, #c02c2c, #2cc05d, #962cc0, #c02c51, #2cb6c0, #c0aa2c);
+    border-bottom: #615858 13px solid;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 49px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links, .logo, .material-icons {
+    text-decoration: none;
+    color: ghostwhite;
+    opacity: 0.6;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.logo p {
+    margin-top: 12px;
+    padding-left: 50px;
+}
+
+.toggle-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.material-icons {
+    font-size: 24px;
+}
+
+.active {
+    display: block;
 }
