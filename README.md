@@ -53,6 +53,33 @@ Features -
 <img width="452" height="556" alt="image" src="https://github.com/user-attachments/assets/8e44edd0-5d4b-459d-ac7c-1c38948352f3" />
 
 <br></br>
+Why it matters -
+  - The Composite Pattern is specifically designed to solve problems like the Compound Pattern by allowing us to treat individual objects and compositions of objects uniformly.
+  Problem with Compound Pattern -
+    - In a compound structure (like your tree with root, src, assets, and files), you often end up writing separate logic for handling:
+
+      * Leaf nodes (like indexFile, styleFile, logoFile)
+      * Composite nodes (like src, assets, root)
+  This can lead to complex and repetitive code when traversing or manipulating the structure.
+
+<br></br>
+
+How Composite Pattern Fixes It:
+
+    The Composite Pattern introduces a common interface for both leaf and composite objects:
+
+    1. Uniformity
+      Treat both files and folders as Component objects. Each component can:
+      - Add children (if it's a composite)
+      - Perform actions (like display, delete, etc.)
+      
+    2. Simplified Tree Traversal
+      - Recursively call methods on components without checking their type.
+    
+    3. Extensibility
+      - Adding new types of components (e.g., symbolic links, compressed folders) becomes easier.
+
+<br></br>
 Upcoming features to be implemented-------
   - drag-and-drop
   - file type icons
