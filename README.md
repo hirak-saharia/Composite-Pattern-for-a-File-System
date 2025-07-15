@@ -13,7 +13,7 @@ What It Does -
   - Implements the Composite Pattern in JavaScript to treat folders and files uniformly.
 
 <br></br>
-How to Works - 
+How it Works - 
   * Base clase: FileSystemItem:
       - a base class for both files and folders
   * Leaf Class: File
