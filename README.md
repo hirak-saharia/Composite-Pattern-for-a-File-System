@@ -1,6 +1,10 @@
 # Composite-Pattern-for-a-File-System
 A complete UI-based implementation of the Composite Pattern for a File System using HTML, CSS, and JavaScript:
 
+  - Files are leaves — they don’t contain other items.
+  - Folders are composites — they can contain files or other folders.
+  - The display() method is implemented in both, allowing uniform treatment.
+
 
 What It Does
 
