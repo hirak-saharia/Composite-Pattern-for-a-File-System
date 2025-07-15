@@ -52,7 +52,7 @@ Features -
 <img width="452" height="556" alt="image" src="https://github.com/user-attachments/assets/8e44edd0-5d4b-459d-ac7c-1c38948352f3" />
 
 <br></br>
-Upcoming features to be implemented------------
+Upcoming features to be implemented-------
   - drag-and-drop
   - file type icons
   - export to json/xml 
