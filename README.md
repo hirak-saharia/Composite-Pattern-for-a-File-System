@@ -16,11 +16,14 @@ What It Does
 <img width="463" height="263" alt="image" src="https://github.com/user-attachments/assets/d0af5980-c049-4de5-8916-65a6834ebe04" />
 
 
-
-
-
-
-
+<br><br>
+Features - 
+  - Expand/Collapse Folders
+    - Click on a folder name to toggle its contents.
+  - File Size Display
+    - Each file shows its size in KB next to its name.
+  - Search Functionality
+    - A search bar filter folders and files by name in real-time.
 
 <img width="452" height="556" alt="image" src="https://github.com/user-attachments/assets/8e44edd0-5d4b-459d-ac7c-1c38948352f3" />
 
