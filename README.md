@@ -6,7 +6,7 @@ A complete UI-based implementation of the Composite Pattern for a File System us
   - The display() method is implemented in both, allowing uniform treatment.
 
 
-What It Does
+What It Does -
 
   - Displays a tree-like structure of folders and files.
   - Uses indentation and icons to visually separate folders 📁 and files 📄.
@@ -16,7 +16,7 @@ What It Does
 <img width="463" height="263" alt="image" src="https://github.com/user-attachments/assets/d0af5980-c049-4de5-8916-65a6834ebe04" />
 
 
-<br><br>
+<br></br>
 Features - 
   - Expand/Collapse Folders
     - Click on a folder name to toggle its contents.
@@ -27,3 +27,8 @@ Features -
 
 <img width="452" height="556" alt="image" src="https://github.com/user-attachments/assets/8e44edd0-5d4b-459d-ac7c-1c38948352f3" />
 
+<br></br>
+Upcoming features to be implemented------------
+  - drag-and-drop
+  - file type icons
+  - export to json/xml 
